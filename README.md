@@ -10,7 +10,8 @@ Super fast anime face detection (> 200 fps for 512x512 resolution, RTX2080)
 
 ## Usage
 - build nms: sh make.sh
-- labeled data: faceboxes (danbooru)
+- Manual data labeling: LabelFaceBox.py (you can skip this if you have danbooru2018 dataset)
+- labeled data: faceboxes (danbooru2018 dataset)
 - train: MyTrain.py
 - eval: eval.py
 
