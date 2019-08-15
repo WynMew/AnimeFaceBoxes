@@ -1,6 +1,6 @@
 # AnimeFaceBoxes
 
-Super face anime face detection
+Super face anime face detection (> 200 fps for 512x512 resolution)
 
 ## Usage
 - build nms: sh make.sh
