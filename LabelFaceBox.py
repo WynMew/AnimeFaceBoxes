@@ -40,7 +40,7 @@ idx=[]
 for line in open(osp.join(photolist)):
     idx.append((os.path.join(line.strip())))
 
-for i in range(1189,len(idx)):
+for i in range(len(idx)):
     #i=0
     img = idx[i]
     print(i, img)
