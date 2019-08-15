@@ -45,9 +45,7 @@ def load_model(model, pretrained_path, load_to_cpu):
     check_keys(model, pretrained_dict)
     model.load_state_dict(pretrained_dict, strict=False)
     return model
-
-#weightfile = '/home/wynmew/workspace/FaceBoxes.PyTorch/weights/FaceBoxes_epoch_60.pth'
-weightfile = '/home/wynmew/workspace/FaceBoxes.PyTorch/weights/Final_FaceBoxes.pth'
+weightfile = 'Final_FaceBoxes.pth'
 
 cpu=False
 confidenceTh = 0.05
@@ -67,8 +65,7 @@ cudnn.benchmark = True
 device = torch.device("cpu" if cpu else "cuda")
 net = net.to(device)
 
-#image_path = '/home/wynmew/data/downloads/danbooru2018/original/0795/3036795.jpg'
-image_path = '/home/wynmew/data/downloads/danbooru2018/original/0795/1081795.jpg'
+image_path = 'danbooru2018/original/0795/1081795.jpg'
 imgOrig = cv2.imread(image_path, cv2.IMREAD_COLOR)
 img=np.float32(imgOrig)
 im_height, im_width, _ = img.shape
