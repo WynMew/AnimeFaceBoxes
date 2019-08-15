@@ -15,3 +15,6 @@ Super fast anime face detection (> 200 fps for 512x512 resolution, RTX2080 + i7 
 - eval: eval.py
 
 ![alt text](https://github.com/WynMew/AnimeFaceBoxes/blob/master/out.png)
+
+
+codes borrowed a lot from [FaceBoxes.PyTorch](https://github.com/zisianw/FaceBoxes.PyTorch)
