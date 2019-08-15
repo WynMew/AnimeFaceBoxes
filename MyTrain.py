@@ -21,7 +21,7 @@ parser.add_argument('--num_workers', default=4, type=int, help='Number of worker
 parser.add_argument('--lr', '--learning-rate', default=1e-3, type=float, help='initial learning rate')
 parser.add_argument('--momentum', default=0.9, type=float, help='momentum')
 #parser.add_argument('--resume_net', default=None, help='resume net for retraining')
-parser.add_argument('--resume_net', default='/home/wynmew/workspace/FaceBoxes.PyTorch/weights/FaceBoxesProd.pth', help='resume net for retraining')
+parser.add_argument('--resume_net', default='weightsBK/FaceBoxesProd.pth', help='resume net for retraining')
 parser.add_argument('--resume_epoch', default=0, type=int, help='resume iter for retraining')
 parser.add_argument('-max', '--max_epoch', default=150, type=int, help='max epoch for retraining')
 parser.add_argument('--weight_decay', default=5e-4, type=float, help='Weight decay for SGD')
