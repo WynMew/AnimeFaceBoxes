@@ -5,13 +5,8 @@ import torch
 import torch.utils.data as data
 import cv2
 import numpy as np
-if sys.version_info[0] == 2:
-    import xml.etree.cElementTree as ET
-else:
-    import xml.etree.ElementTree as ET
 
-
-WIDER_CLASSES = ( '__background__', 'face')
+CLASSES = ( '__background__', 'face')
 
 class AnnotationTransform(object):
 
@@ -28,7 +23,7 @@ class AnnotationTransform(object):
     """
 
     def __init__(self):
-        self.class_to_ind = dict( zip(WIDER_CLASSES, range(len(WIDER_CLASSES))))
+        self.class_to_ind = dict( zip(CLASSES, range(len(CLASSES))))
         #self.keep_difficult = keep_difficult
 
     def __call__(self, target):
