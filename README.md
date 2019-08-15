@@ -1,6 +1,6 @@
 # AnimeFaceBoxes
 
-Super fast anime face detection (> 200 fps for 512x512 resolution, RTX2080)
+Super fast anime face detection (> 200 fps for 512x512 resolution, RTX2080 + i7 9700k)
 
 ## Dependencies
 - Python 3.6+ (Anaconda)
