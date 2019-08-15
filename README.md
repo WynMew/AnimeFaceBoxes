@@ -14,4 +14,4 @@ Super fast anime face detection (> 200 fps for 512x512 resolution, RTX2080 + i7 
 - train: MyTrain.py
 - eval: eval.py
 
-- ![alt text](https://github.com/WynMew/AnimeFaceBoxes/blob/master/out.png)
+![alt text](https://github.com/WynMew/AnimeFaceBoxes/blob/master/out.png)
