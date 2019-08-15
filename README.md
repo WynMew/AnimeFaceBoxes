@@ -5,7 +5,6 @@ Super fast anime face detection (> 200 fps for 512x512 resolution, RTX2080 + i7 
 ## Dependencies
 - Python 3.6+ (Anaconda)
 - PyTorch-1.0 +
-- scipy, numpy, sklearn etc.
 - OpenCV3 (Python)
 
 ## Usage
