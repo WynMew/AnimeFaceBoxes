@@ -45,7 +45,7 @@ def load_model(model, pretrained_path, load_to_cpu):
     check_keys(model, pretrained_dict)
     model.load_state_dict(pretrained_dict, strict=False)
     return model
-weightfile = 'Final_FaceBoxes.pth'
+weightfile = 'FaceBoxes_epoch_90.pth'
 
 cpu=False
 confidenceTh = 0.05
